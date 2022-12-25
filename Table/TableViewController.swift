@@ -79,6 +79,10 @@ class TableViewController: UITableViewController {
         itemsImageFile.insert(itemImageToMove, at: (to as NSIndexPath).row) //삭제된 아이템의 이미지를 이동할 위치로 삽입
     }
     
+    //테이블 뷰로 다시 불러온다.
+    override func viewWillAppear(_ animated: Bool){
+        tvListView.reloadData()
+    }
 
     /*
     // Override to support conditional rearranging of the table view.
