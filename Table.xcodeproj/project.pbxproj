@@ -16,6 +16,9 @@
 		ADA750892958AB0900FB55D4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA750882958AB0900FB55D4 /* AddViewController.swift */; };
 		ADA7508B2958AB2600FB55D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA7508A2958AB2600FB55D4 /* DetailViewController.swift */; };
 		ADA7508D2958ABD700FB55D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADA7508C2958ABD700FB55D4 /* README.md */; };
+		ADA750912958D47900FB55D4 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA7508E2958D47900FB55D4 /* pencil.png */; };
+		ADA750922958D47900FB55D4 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA7508F2958D47900FB55D4 /* cart.png */; };
+		ADA750932958D47900FB55D4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA750902958D47900FB55D4 /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		ADA750882958AB0900FB55D4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		ADA7508A2958AB2600FB55D4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADA7508C2958ABD700FB55D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ADA7508E2958D47900FB55D4 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		ADA7508F2958D47900FB55D4 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		ADA750902958D47900FB55D4 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				ADA750862958AAC300FB55D4 /* TableViewController.swift */,
 				ADA750882958AB0900FB55D4 /* AddViewController.swift */,
 				ADA7508A2958AB2600FB55D4 /* DetailViewController.swift */,
+				ADA7508F2958D47900FB55D4 /* cart.png */,
+				ADA750902958D47900FB55D4 /* clock.png */,
+				ADA7508E2958D47900FB55D4 /* pencil.png */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -134,10 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA750912958D47900FB55D4 /* pencil.png in Resources */,
 				ADA7507F2958A83200FB55D4 /* LaunchScreen.storyboard in Resources */,
 				ADA7507C2958A83200FB55D4 /* Assets.xcassets in Resources */,
 				ADA7508D2958ABD700FB55D4 /* README.md in Resources */,
 				ADA7507A2958A83100FB55D4 /* Main.storyboard in Resources */,
+				ADA750932958D47900FB55D4 /* clock.png in Resources */,
+				ADA750922958D47900FB55D4 /* cart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
