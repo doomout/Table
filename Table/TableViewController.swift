@@ -1,9 +1,3 @@
-//
-//  TableViewController.swift
-//  Table
-//
-//  Created by 현구김 on 2022/12/26.
-//
 
 import UIKit
 
@@ -75,12 +69,16 @@ class TableViewController: UITableViewController {
         return "삭제"
     }
 
-    /*
-    // Override to support rearranging the table view.
+    
+    //목록 순서 바꾸는 함수
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+        let itemToMove = items[(fromIndexPath as NSIndexPath).row] //이동할 아이템의 위치를 저장
+        let itemImageToMove = itemsImageFile[(fromIndexPath as NSIndexPath).row] //이동할 아이템의 이미지를 저장
+        items.remove(at: (fromIndexPath as NSIndexPath).row) //이동할 아이템을 삭제, 삭제한 아이템 뒤의 아이템의 인덱스가 재정렬됨
+        items.insert(itemToMove, at: (to as NSIndexPath).row) //삭제된 아이템을 이동할 위치로 삽입. 삽입한 아이템 뒤의 인덱스가 재정렬
+        itemsImageFile.insert(itemImageToMove, at: (to as NSIndexPath).row) //삭제된 아이템의 이미지를 이동할 위치로 삽입
     }
-    */
+    
 
     /*
     // Override to support conditional rearranging of the table view.
